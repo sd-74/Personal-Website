@@ -19,6 +19,7 @@ const Home = () => {
             window.removeEventListener("resize", handleResize);
         };
     }, []);
+
     return (
         <div className="py-12 flex-col">
             <div className="flex flex-col md:flex-row justify-between mb-14">
@@ -43,7 +44,7 @@ const Home = () => {
                     src="./profile-picture.jpg"
                     className="border-2 border-foreground"
                 />
-                
+    
             </div>
             <h2 className="text-3xl font-bold pb-4">Current Projects</h2>
             {/*
