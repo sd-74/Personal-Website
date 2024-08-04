@@ -4,7 +4,7 @@ export const content = [
     "./src/**/*.{html,tsx}",
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
 ];
-//export const darkMode = "class";
+export const darkMode = "class";
 export const theme = {
     extend: {
         backgroundImage: {

@@ -57,7 +57,7 @@ function App() {
     const [darkMode, setDarkMode] = useState(false);
     const location = useLocation();
 
-    const toggleDarkMode = () => setDarkMode((prevMode) => !prevMode);
+    const toggleDarkMode = () => setDarkMode(prevMode => !prevMode);
 
     const getSelectedKey = () => {
         const path = location.pathname;

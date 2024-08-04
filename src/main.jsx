@@ -4,15 +4,26 @@ import { NextUIProvider } from '@nextui-org/react';
 import App from './App';
 import { BrowserRouter as Router } from "react-router-dom";
 import './output.css'; // Import your global CSS here
+import { ThemeProvider as NextThemesProvider } from 'next-themes'
+
+const ThemeWrapper = ({ children }) => {
+  return (
+    <NextThemesProvider attribute="class" defaultTheme="system">
+      <NextUIProvider>
+        {children}
+      </NextUIProvider>
+    </NextThemesProvider>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <NextUIProvider>
+    <ThemeWrapper>
       <Router>
         <App />
       </Router>
-    </NextUIProvider>
+    </ThemeWrapper>
   </React.StrictMode>
 );

@@ -1,23 +1,24 @@
-import { Tooltip, Button } from "@nextui-org/react";
-import IconSun from './assets/iconsun.svg';
-import IconMoon from './assets/iconmoon.svg';
+import { useTheme } from "next-themes";
+import { Button } from "@nextui-org/react";
+import IconSun from "./assets/iconsun.svg";
+import IconMoon from "./assets/iconmoon.svg";
 
-const ThemeSwitcher = ({ toggleDarkMode, darkMode }) => {
+const ThemeSwitcher = () => {
+    const { theme, setTheme } = useTheme();
+
     return (
-        <Tooltip
-            key="theme-switcher"
-            placement="bottom"
-            content="Toggle Dark Mode"
+        <Button
+            isIconOnly
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            variant="flat"
         >
-            <Button isIconOnly onClick={toggleDarkMode} variant="flat">
-                <img 
-                    src={darkMode ? IconMoon : IconSun} 
-                    alt={darkMode ? "Moon Icon" : "Sun Icon"}
-                    width="24"
-                    height="24"
-                />
-            </Button>
-        </Tooltip>
+            <img
+                src={theme === "dark" ? IconMoon : IconSun}
+                alt={theme === "dark" ? "Moon Icon" : "Sun Icon"}
+                width="24"
+                height="24"
+            />
+        </Button>
     );
 };
 
