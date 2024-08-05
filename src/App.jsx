@@ -26,22 +26,24 @@ function App() {
 
     return (
         <main className="h-full w-full text-foreground bg-background overflow-auto py-16">
-            <div className="relative flex flex-col max-w-full md:max-w-3xl m-auto p-8">
-                <Tabs defaultSelectedKey={getSelectedKey()} aria-label="Pages">
-                    <Tab key="home" title="Home" className="w-full">
-                        <Home />
-                    </Tab>
-                    <Tab key="projects" title="Projects" className="w-full">
-                        <ProjectPage />
-                    </Tab>
-                    <Tab
-                        key="experiences"
-                        title="Experiences"
-                        className="w-full"
-                    >
-                        <Experiences />
-                    </Tab>
-                </Tabs>
+            <div className="relative flex flex-col max-w-sm md:max-w-3xl m-auto p-8">
+                <div className="flex flex-col w-full">
+                    <Tabs defaultSelectedKey={getSelectedKey()} aria-label="Pages">
+                        <Tab key="home" title="Home" className="w-full">
+                            <Home />
+                        </Tab>
+                        <Tab key="projects" title="Projects" className="w-full">
+                            <ProjectPage />
+                        </Tab>
+                        <Tab
+                            key="experiences"
+                            title="Experiences"
+                            className="w-full"
+                        >
+                            <Experiences />
+                        </Tab>
+                    </Tabs>
+                </div>
                 <div className="absolute top-8 right-7">
                     <ThemeSwitcher
                         toggleDarkMode={toggleDarkMode}
