@@ -26,7 +26,7 @@ function App() {
 
     return (
         <main className="h-full w-full text-foreground bg-background overflow-auto py-16">
-            <div className="relative flex flex-col max-w-sm md:max-w-3xl m-auto p-6">
+            <div className="relative flex flex-col max-w-sm md:max-w-3xl m-auto p-8">
                 <Tabs defaultSelectedKey={getSelectedKey()} aria-label="Pages">
                     <Tab key="home" title="Home" className="w-full">
                         <Home />
@@ -46,6 +46,7 @@ function App() {
                     <ThemeSwitcher
                         toggleDarkMode={toggleDarkMode}
                         darkMode={darkMode}
+                        className="ml-4"
                     />
                 </div>
                 <Footer />
