@@ -30,7 +30,7 @@ const Home = () => {
                         Shubham Dey
                     </h1>
                     <p className="pt-3 text-secondary max-w-md pb-8 lg:pb-0">
-                        <br></br>I'm an undergraduate sophomore student pursuing a B.S. in 
+                        I'm an undergraduate sophomore student pursuing a B.S. in 
                         Mathematics & Computer Science and a Minor in Business at {" "}
                         <Link href="https://www.illinois.edu/" style={{ color: '#ff5f05' }}>
                             The University of Illinois Urbana-Champaign.
