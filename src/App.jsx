@@ -48,7 +48,6 @@ function App() {
                     <ThemeSwitcher
                         toggleDarkMode={toggleDarkMode}
                         darkMode={darkMode}
-                        className="ml-4"
                     />
                 </div>
                 <Footer />
