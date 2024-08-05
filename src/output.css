@@ -740,6 +740,10 @@ video {
   z-index: 50;
 }
 
+.col-span-12 {
+  grid-column: span 12 / span 12;
+}
+
 .-m-2 {
   margin: -0.5rem;
 }
@@ -829,6 +833,10 @@ video {
   margin-inline-start: -0.5rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .mb-1\.5 {
   margin-bottom: 0.375rem;
 }
@@ -916,6 +924,10 @@ video {
   display: none;
 }
 
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
 .\!h-auto {
   height: auto !important;
 }
@@ -990,6 +1002,10 @@ video {
 
 .h-\[100dvh\] {
   height: 100dvh;
+}
+
+.h-\[20px\] {
+  height: 20px;
 }
 
 .h-\[2px\] {
@@ -1625,6 +1641,10 @@ video {
   place-content: center;
 }
 
+.\!items-start {
+  align-items: flex-start !important;
+}
+
 .items-start {
   align-items: flex-start;
 }
@@ -1780,6 +1800,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-\[14px\] {
+  border-radius: 14px;
+}
+
 .rounded-\[calc\(theme\(borderRadius\.large\)\/1\.5\)\] {
   border-radius: calc(var(--nextui-radius-large) / 1.5);
 }
@@ -1836,6 +1860,11 @@ video {
 .\!rounded-r-none {
   border-top-right-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
+}
+
+.rounded-b-\[14px\] {
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 14px;
 }
 
 .rounded-b-large {
@@ -2316,6 +2345,10 @@ video {
   padding: 2rem;
 }
 
+.p-\[2\.3px\] {
+  padding: 2.3px;
+}
+
 .\!px-1 {
   padding-left: 0.25rem !important;
   padding-right: 0.25rem !important;
@@ -2525,6 +2558,11 @@ video {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -2691,6 +2729,10 @@ video {
 .text-primary {
   --tw-text-opacity: 1;
   color: hsl(var(--nextui-primary) / var(--nextui-primary-opacity, var(--tw-text-opacity)));
+}
+
+.text-primary\/60 {
+  color: hsl(var(--nextui-primary) / 0.6);
 }
 
 .text-primary\/80 {
@@ -7173,6 +7215,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
+
   .sm\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -7231,8 +7277,16 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:grid {
+    display: grid;
+  }
+
   .md\:max-w-3xl {
     max-width: 48rem;
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:flex-row {

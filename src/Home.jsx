@@ -1,6 +1,8 @@
 import { Image, Link } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 import { debounce } from "lodash";
+import ProjectCard from "./ProjectCard";
+import { Projects } from "./ProjectData";
 
 const Home = () => {
     
@@ -47,9 +49,9 @@ const Home = () => {
     
             </div>
             <h2 className="text-3xl font-bold pb-4">Current Projects</h2>
-            {/*
+            
             <div className="flex md:flex-row flex-col lg:flex justify-center gap-2">
-                {projects.map((project) =>
+                {Projects.map((project) =>
                     project.current ? (
                         <ProjectCard
                             key={project.title}
@@ -59,7 +61,7 @@ const Home = () => {
                     ) : null
                 )}
             </div>
-                    */} 
+                    
             <p className="pt-8 text-secondary">
                 <i> Professionally, </i> I am very interested in Quantative Finance, and Software Development. <br />
                 <i> Outside of school,</i> I enjoy playing soccer, watching sports, listening to music, and watching movies.
