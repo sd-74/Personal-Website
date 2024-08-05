@@ -1862,11 +1862,6 @@ video {
   border-bottom-right-radius: 0px !important;
 }
 
-.rounded-b-\[14px\] {
-  border-bottom-right-radius: 14px;
-  border-bottom-left-radius: 14px;
-}
-
 .rounded-b-large {
   border-bottom-right-radius: var(--nextui-radius-large);
   border-bottom-left-radius: var(--nextui-radius-large);
