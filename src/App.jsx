@@ -5,6 +5,7 @@ import Home from "./Home";
 import ProjectPage from "./ProjectPage";
 import Experiences from "./ExperiencesPage";
 import ThemeSwitcher from "./ThemeSwitcher";
+import Footer from "./Footer";
 import { useLocation } from "react-router-dom";
 
 function App() {
@@ -41,12 +42,13 @@ function App() {
                         <Experiences />
                     </Tab>
                 </Tabs>
-            </div>
-            <div className="absolute top-8 right-7">
-                <ThemeSwitcher
-                    toggleDarkMode={toggleDarkMode}
-                    darkMode={darkMode}
-                />
+                <div className="absolute top-8 right-7">
+                    <ThemeSwitcher
+                        toggleDarkMode={toggleDarkMode}
+                        darkMode={darkMode}
+                    />
+                </div>
+                <Footer />
             </div>
         </main>
     );

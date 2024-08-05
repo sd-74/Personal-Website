@@ -1,4 +1,4 @@
-import { Experiences } from "./ProjectData";
+import { Experiences } from "./Data";
 import ExperienceCard from "./ExperienceCard";
 
 

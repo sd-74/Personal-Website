@@ -12,6 +12,7 @@
   "dependencies": {
     "@nextui-org/react": "^2.4.6",
     "@svgr/webpack": "^8.1.0",
+    "@tabler/icons-react": "^3.11.0",
     "framer-motion": "^11.3.21",
     "lodash": "^4.17.21",
     "next-themes": "^0.3.0",

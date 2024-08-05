@@ -1,4 +1,4 @@
-import { Projects } from "./ProjectData";
+import { Projects } from "./Data";
 import ProjectCard from "./ProjectCard";
 
 const ProjectPage = () => {

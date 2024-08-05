@@ -2,7 +2,7 @@ import { Image, Link } from "@nextui-org/react";
 import { useEffect, useState } from "react";
 import { debounce } from "lodash";
 import ProjectCard from "./ProjectCard";
-import { Projects } from "./ProjectData";
+import { Projects } from "./Data";
 
 const Home = () => {
     
@@ -66,7 +66,6 @@ const Home = () => {
                 <i> Professionally, </i> I am very interested in Quantative Finance, and Software Development. <br />
                 <i> Outside of school,</i> I enjoy playing soccer, watching sports, listening to music, and watching movies.
             </p>
-            {/* will eventually move this onto an about page */}
         </div>
     );
 };

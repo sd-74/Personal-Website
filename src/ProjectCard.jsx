@@ -6,7 +6,7 @@ import {
     Image,
     Link,
 } from "@nextui-org/react";
-import { Badges } from "./ProjectData"; // Adjust the import path as needed
+import { Badges } from "./Data";
 import { useState } from "react";
 
 const ProjectCard = (props) => {
