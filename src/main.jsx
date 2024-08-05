@@ -9,7 +9,7 @@ import { ThemeProvider as NextThemesProvider } from 'next-themes'
 const ThemeWrapper = ({ children }) => {
   return (
     <NextThemesProvider attribute="class" defaultTheme="system">
-      <NextUIProvider>
+      <NextUIProvider className='h-full w-full'>
         {children}
       </NextUIProvider>
     </NextThemesProvider>
