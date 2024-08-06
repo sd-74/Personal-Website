@@ -16,19 +16,29 @@ const CS128Projects = {
     github: "https://github.com/sd-74/CS128-MPs",
     tags: ["Cplusplus"],
     date: "2023-2024",
-    current: true,
+    current: false,
     color: "green",
 };
 
 const courseRatingApp = {
     title: "Course Rating App",
     caption: "An Android App where students can browse Computer Science Courses and rate them.",
-    link: "https://google.com",
+    link: "https://youtu.be/SBG9JOBAuls",
     github: "https://github.com/cs124-illinois-students/MP-Spring2024-java-sd-74",
     tags: ["Java", "AndroidStudio"],
     date: "2023-2024",
-    current: true,
+    current: false,
     color: "orange",
+};
+const SoftwareDesign = {
+    title: "Software Design Lab Project",
+    caption: "A project through CS 222 at Illinois where...",
+    link: ".",
+    github: ".",
+    tags: [],
+    date: "2024",
+    current: true,
+    color: "pink",
 };
 
 const ritesh = {
@@ -42,7 +52,7 @@ const ritesh = {
 const nobe = {
     title: "NOBE Illinois",
     position: "Software Engineer",
-    caption: "Workedk with a team of software engineers on Meta Frazo's website, enhancing their AI platform for lip-syncing videos in multiple languages.",
+    caption: "Worked with a team of software engineers on Meta Frazo's website, enhancing their AI platform for lip-syncing videos in multiple languages.",
     tags: ["React", "JavaScript"],
     color: "#89CFF0",
 }
