@@ -42,7 +42,7 @@ const SoftwareDesign = {
 };
 
 const ritesh = {
-    title: "Ritesh Soni, VP Data Science at Capital One",
+    title: "Data Science Intership",
     position: "Machine Learning Intern",
     caption: "Gained a foundational knowledge in Machine Learning techniques using linear regression, decision trees, and random forests",
     tags: ["Python"],
