@@ -1,3 +1,24 @@
+const LLM = {
+    title: "LLM Evaluator",
+    caption: "A tool to evaluates the performance of Large Language Models and makes it easier to fine tune them.",
+    link: ".",
+    github: "https://github.com/sd-74/LLM-Evaluator",
+    tags: ["React", "Python", "MongoDB", "AWS"],
+    date: "2024",
+    current: true,
+    color: "red",
+};
+const snacks = {
+    title: "Snack Reccomender",
+    caption: "An app that reccomends snacks based on user preferencee",
+    link: ".",
+    github: "https://github.com/sd-74/Snack-App",
+    tags: ["React", "Python"],
+    date: "2024",
+    current: true,
+    color: "blue",
+};
+
 const personalWebsite = {
     title: "Personal Website",
     caption: "This website.",
@@ -5,8 +26,8 @@ const personalWebsite = {
     github: "https://github.com/sd-74/Personal-Website",
     tags: ["React", "Vite", "Netlify", "JavaScript", "TailwindCSS"],
     date: "2024",
-    current: true,
-    color: "blue",
+    current: false,
+    color: "white",
 };
 
 const CS128Projects = {
@@ -32,7 +53,7 @@ const courseRatingApp = {
 };
 const SoftwareDesign = {
     title: "Software Design Lab Project",
-    caption: "A project through CS 222 at Illinois where...",
+    caption: "A chrome extension that helps Leetcode users review their syntax and logic errors using AI",
     link: ".",
     github: ".",
     tags: [],
@@ -84,6 +105,8 @@ const Badges = {
     Vite: "https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white",
     Netlify: "https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7",
     Kotlin: "https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=Kotlin&logoColor=white",
+    MongoDB: "https://img.shields.io/badge/-MongoDB-13aa52?style=for-the-badge&logo=mongodb&logoColor=white",
+    AWS: "https://img.shields.io/badge/AWS-%23232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white",
 };
 
 const Experiences = [
@@ -94,6 +117,8 @@ const Experiences = [
 ]
 
 const Projects = [
+    LLM,
+    snacks,
     personalWebsite,
     CS128Projects,
     courseRatingApp,
