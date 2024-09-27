@@ -1,6 +1,6 @@
 const LLM = {
     title: "LLM Evaluator",
-    caption: "A tool to evaluates the performance of Large Language Models and makes it easier to fine tune them.",
+    caption: "A tool to evaluates the performance of Large Language Models and makes it easier to fine tune them",
     link: ".",
     github: "https://github.com/sd-74/LLM-Evaluator",
     tags: ["React", "Python", "MongoDB", "AWS"],
@@ -10,10 +10,10 @@ const LLM = {
 };
 const snacks = {
     title: "Snack Reccomender",
-    caption: "An app that reccomends snacks based on user preferencee",
+    caption: "An app that reccomends snacks based on user preferences",
     link: ".",
     github: "https://github.com/sd-74/Snack-App",
-    tags: ["React", "Python"],
+    tags: ["ReactNative", "Python"],
     date: "2024",
     current: true,
     color: "blue",
@@ -43,7 +43,7 @@ const CS128Projects = {
 
 const courseRatingApp = {
     title: "Course Rating App",
-    caption: "An Android App where students can browse Computer Science Courses and rate them.",
+    caption: "An Android App where students can browse Computer Science Courses and rate them",
     link: "https://youtu.be/SBG9JOBAuls",
     github: "https://github.com/cs124-illinois-students/MP-Spring2024-java-sd-74",
     tags: ["Java", "AndroidStudio"],
@@ -52,7 +52,7 @@ const courseRatingApp = {
     color: "orange",
 };
 const SoftwareDesign = {
-    title: "Software Design Lab Project",
+    title: "LeetBot",
     caption: "A chrome extension that helps Leetcode users review their syntax and logic errors using AI",
     link: ".",
     github: ".",
@@ -73,7 +73,7 @@ const ritesh = {
 const nobe = {
     title: "NOBE Illinois",
     position: "Software Engineer",
-    caption: "Worked with a team of software engineers on Meta Frazo's website, enhancing their AI platform for lip-syncing videos in multiple languages.",
+    caption: "Worked with a team of software engineers on Meta Frazo's website, enhancing their AI platform for lip-syncing videos in multiple languages",
     tags: ["React", "JavaScript"],
     color: "#89CFF0",
 }
@@ -107,6 +107,8 @@ const Badges = {
     Kotlin: "https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=Kotlin&logoColor=white",
     MongoDB: "https://img.shields.io/badge/-MongoDB-13aa52?style=for-the-badge&logo=mongodb&logoColor=white",
     AWS: "https://img.shields.io/badge/AWS-%23232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white",
+    Flask: "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white",
+    ReactNative: "https://img.shields.io/badge/ReactNative-222222?style=for-the-badge&logo=React&logoColor=",
 };
 
 const Experiences = [
