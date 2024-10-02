@@ -1,16 +1,16 @@
 const LLM = {
     title: "LLM Evaluator",
-    caption: "A tool to evaluates the performance of Large Language Models and makes it easier to fine tune them",
-    link: ".",
+    caption: "A version control tool that evaluates the performance of Large Language Models and makes it easier to fine tune them",
+    link: "https://batch-flow.vercel.app/",
     github: "https://github.com/sd-74/LLM-Evaluator",
-    tags: ["React", "Python", "MongoDB", "AWS"],
+    tags: ["NextJS", "Python", "MongoDB", "AWS"],
     date: "2024",
     current: true,
     color: "red",
 };
 const snacks = {
     title: "Snack Reccomender",
-    caption: "An app that reccomends snacks based on user preferences",
+    caption: "An app that recommends snacks based on user preferences",
     link: ".",
     github: "https://github.com/sd-74/Snack-App",
     tags: ["ReactNative", "Python"],
@@ -109,6 +109,7 @@ const Badges = {
     AWS: "https://img.shields.io/badge/AWS-%23232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white",
     Flask: "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white",
     ReactNative: "https://img.shields.io/badge/ReactNative-222222?style=for-the-badge&logo=React&logoColor=",
+    NextJS: "https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white",
 };
 
 const Experiences = [
