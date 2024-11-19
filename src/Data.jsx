@@ -1,9 +1,9 @@
-const LLM = {
-    title: "LLM Evaluator",
-    caption: "A version control tool that evaluates the performance of Large Language Models and makes it easier to fine tune them",
-    link: "https://batch-flow.vercel.app/",
-    github: "https://github.com/sd-74/LLM-Evaluator",
-    tags: ["NextJS", "Python", "MongoDB", "AWS"],
+const LLawMa = {
+    title: "LLawMa",
+    caption: "A multi-agent LLM and RAG-powered tool simulating court cases to help tenants prepare for housing disputes",
+    link: ".",
+    github: "https://github.com/sumanthk123/Lawmma",
+    tags: ["React", "Python", "Ollama", "LLama"],
     date: "2024",
     current: true,
     color: "red",
@@ -110,6 +110,8 @@ const Badges = {
     Flask: "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white",
     ReactNative: "https://img.shields.io/badge/ReactNative-222222?style=for-the-badge&logo=React&logoColor=",
     NextJS: "https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white",
+    LLama: "https://img.shields.io/badge/LLaMA-0081FB?style=for-the-badge&logo=meta&logoColor=white",
+    Ollama: "https://img.shields.io/badge/Ollama-black?style=for-the-badge&logo=ollama&logoColor=white",
 };
 
 const Experiences = [
@@ -120,7 +122,7 @@ const Experiences = [
 ]
 
 const Projects = [
-    LLM,
+    LLawMa,
     snacks,
     personalWebsite,
     CS128Projects,
