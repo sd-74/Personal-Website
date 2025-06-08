@@ -43,7 +43,7 @@ const Home = () => {
                     width={width < 768 ? "full" : "160px"}
                     radius="full"
                     alt="Profile Picture"
-                    src="./profile-picture.jpg"
+                    src="./PFPCropped.jpeg"
                     className="border-2 border-foreground"
                 />
     
