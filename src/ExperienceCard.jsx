@@ -38,7 +38,7 @@ const ExperienceCard = (props) => {
                     {experience.caption}
                 </p>
             </CardBody>
-            <CardFooter className="bottom-0 flex-wrap gap-1 bg-background">
+            <CardFooter className="bottom-0 flex-wrap gap-1 bg-background p-2 overflow-visible">
                 {experience.tags.map((tag) => (
                     <Image
                         key={tag}

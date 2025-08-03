@@ -30,7 +30,7 @@ const Home = () => {
                         Shubham Dey
                     </h1>
                     <p className="pt-3 text-secondary max-w-md pb-8 lg:pb-0">
-                        I'm an undergraduate sophomore student pursuing a B.S. in 
+                        I'm an undergraduate student pursuing a B.S. in 
                         Mathematics & Computer Science and a Minor in Business at {" "}
                         <Link href="https://www.illinois.edu/" style={{ color: '#ff5f05' }}>
                             The University of Illinois Urbana-Champaign.
@@ -63,7 +63,7 @@ const Home = () => {
             </div>
                     
             <p className="pt-8 text-secondary">
-                <i> Professionally, </i> I am very interested in Quantative Finance, and Software Development. <br />
+                <i> Professionally, </i> I am very interested in Machine Learning, and Software Development. <br />
                 <i> Outside of school,</i> I enjoy playing soccer, watching sports, listening to music, and watching movies.
             </p>
         </div>

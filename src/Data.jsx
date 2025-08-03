@@ -1,3 +1,5 @@
+// Projects
+
 const LLawMa = {
     title: "LLawMa",
     caption: "A multi-agent LLM and RAG-powered tool simulating court cases to help tenants prepare for housing disputes",
@@ -5,7 +7,7 @@ const LLawMa = {
     github: "https://github.com/sumanthk123/Lawmma",
     tags: ["React", "Python", "Ollama", "LLama"],
     date: "2024",
-    current: true,
+    current: false,
     color: "red",
 };
 const snacks = {
@@ -17,6 +19,17 @@ const snacks = {
     date: "2024",
     current: true,
     color: "blue",
+};
+
+const PopIt = {
+    title: "PopIt",
+    caption: "A medication reminder app with exportable medication lists for doctors and customizable notification schedules",
+    link: ".",
+    github: "https://github.com/sd-74/PopIt",
+    tags: ["ReactNative", "TypeScript", "Expo"],
+    date: "2024",
+    current: true,
+    color: "purple",
 };
 
 const personalWebsite = {
@@ -62,12 +75,14 @@ const SoftwareDesign = {
     color: "pink",
 };
 
+// Experiences
+
 const ritesh = {
     title: "Data Science Intership",
     position: "Machine Learning Intern",
     caption: "Gained a foundational knowledge in Machine Learning techniques using linear regression, decision trees, and random forests",
     tags: ["Python"],
-    color: "red",
+    color: "green",
 }
 
 const nobe = {
@@ -75,7 +90,7 @@ const nobe = {
     position: "Software Engineer",
     caption: "Worked with a team of software engineers on Meta Frazo's website, enhancing their AI platform for lip-syncing videos in multiple languages",
     tags: ["React", "JavaScript"],
-    color: "#89CFF0",
+    color: "#ff5f05",
 }
 
 const cs124 = {
@@ -93,10 +108,27 @@ const outlier = {
     tags: ["Java", "Cplusplus", "Python"],
     color: "yellow",
 }
+const capitalOne = {
+    title: "Capital One",
+    position: "Machine Learning Intern",
+    caption: "Incoming Fall 2025",
+    tags: [],
+    color: "#D22E1E",
+}
+
+const motorola = {
+    title: "Motorola Solutions",
+    position: "Software Engineering Intern",
+    caption: "LMR Team, AI Audio. Architected testing automation pipeline for AI vocoder models. Developed Android proof-of-concept applications.",
+    tags: ["Python", "AndroidStudio", "Pytorch"],
+    color: "#005fbe",
+}
+
 
 const Badges = {
     Python: "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54",
     JavaScript: "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+    TypeScript: "https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square",
     AndroidStudio: "https://img.shields.io/badge/Android_Studio-3DDC84?logo=androidstudio&logoColor=white",
     Java: "https://img.shields.io/badge/Java-007396?logo=java&logoColor=white&style=for-the-badge",
     Cplusplus: "https://img.shields.io/badge/-C++-blue?logo=cplusplus",
@@ -112,9 +144,13 @@ const Badges = {
     NextJS: "https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white",
     LLama: "https://img.shields.io/badge/LLaMA-0081FB?style=for-the-badge&logo=meta&logoColor=white",
     Ollama: "https://img.shields.io/badge/Ollama-black?style=for-the-badge&logo=ollama&logoColor=white",
+    Expo: "https://img.shields.io/badge/Expo-000020?logo=Expo&logoColor=white",
+    Pytorch: "https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white",
 };
 
 const Experiences = [
+    capitalOne,
+    motorola,
     nobe,
     cs124,
     outlier,
@@ -124,6 +160,7 @@ const Experiences = [
 const Projects = [
     LLawMa,
     snacks,
+    PopIt,
     personalWebsite,
     CS128Projects,
     courseRatingApp,
