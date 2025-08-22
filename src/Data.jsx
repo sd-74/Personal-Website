@@ -1,5 +1,16 @@
 // Projects
 
+const ZeroDoor = {
+    title: "ZeroDoor",
+    caption: "An AI-powered FSBO marketplace where homeowners can list and browse real estate properties commission-free",
+    link: ".",
+    github: ".",
+    tags: ["Supabase", "NextJS", "Vercel", "NodeJS", /*"OpenAI"*/],
+    date: "2025",
+    current: true,
+    color: "black",
+}
+
 const LLawMa = {
     title: "LLawMa",
     caption: "A multi-agent LLM and RAG-powered tool simulating court cases to help tenants prepare for housing disputes",
@@ -146,6 +157,10 @@ const Badges = {
     Ollama: "https://img.shields.io/badge/Ollama-black?style=for-the-badge&logo=ollama&logoColor=white",
     Expo: "https://img.shields.io/badge/Expo-000020?logo=Expo&logoColor=white",
     Pytorch: "https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white",
+    Supabase: "https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white",
+    NodeJS: "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white",
+    OpenAI: "https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=white",
+    Vercel: "https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white",
 };
 
 const Experiences = [
@@ -158,6 +173,7 @@ const Experiences = [
 ]
 
 const Projects = [
+    ZeroDoor,
     LLawMa,
     snacks,
     PopIt,
